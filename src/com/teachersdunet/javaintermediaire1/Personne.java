@@ -18,7 +18,9 @@ public class Personne {
 			}
 			
 		}
-		
+		public int getAge(){
+			return this.age*365;
+		}
 		
 		}
 		

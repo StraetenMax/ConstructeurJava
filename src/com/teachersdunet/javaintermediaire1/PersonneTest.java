@@ -6,8 +6,8 @@ public class PersonneTest {
 		Personne p1 = new Personne("Philippe");
 		System.out.println(p1.nom);
 		
-		p1.setAge(12);
-		System.out.println(p1.age);
+		p1.setAge(45);
+		System.out.println(p1.getAge());
 	
 		
 	}
