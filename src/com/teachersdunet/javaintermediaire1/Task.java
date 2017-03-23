@@ -1,13 +1,13 @@
 package com.teachersdunet.javaintermediaire1;
 
 public class Task {
-	public String titre;
+	public String title;
 	public String description;
 	public boolean completed = false;
 	
-	public Task(String title, String desc){
-		titre = title;
-		description = desc;
+	public Task(String title, String description){
+		this.title = title;
+		this.description = description;
 	}
 	
 	public void complete (){

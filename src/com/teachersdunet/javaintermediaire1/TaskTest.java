@@ -10,8 +10,8 @@ public class TaskTest {
 		tache2.complete();
 		
 		
-		System.out.println(tache1.titre);
-		System.out.println(tache1.description);
+		System.out.println(tache1.title);
+		System.out.println(tache3.description);
 		System.out.println(tache2.completed);
 
 	}
