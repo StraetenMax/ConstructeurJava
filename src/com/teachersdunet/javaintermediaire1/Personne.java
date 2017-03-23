@@ -1,8 +1,8 @@
 package com.teachersdunet.javaintermediaire1;
 
 public class Personne {
-		public String nom;
-		public int age;
+		private String nom;
+		private int age;
 		
 		//public Personne(String nom, int age)
 		public Personne(String nom){
@@ -10,6 +10,18 @@ public class Personne {
 			//this.age = age;
 		}
 		
+		public String getNom() {
+			return nom;
+		}
+
+
+
+		public void setNom(String nom) {
+			this.nom = nom;
+		}
+
+
+
 		public void setAge(int age){
 			if(age<15){
 				System.out.println("Interdit au moins de 15 ans");
