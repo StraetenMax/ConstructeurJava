@@ -6,6 +6,9 @@ public class ClasseA {
 	
 	public void maMethode(){
 		System.out.println("je suis ma methode");
+		
+		
+		
 	}
 	
 }

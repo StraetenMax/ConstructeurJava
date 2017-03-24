@@ -4,10 +4,17 @@ public class PersonneTest {
 
 	public static void main(String[] args) {
 		Personne p1 = new Personne("Philippe");
-		System.out.println(p1.getNom());
+		Personne p2 = new Personne("Eric");
+		Personne p3 = new Personne("Pierre");
 		
-		p1.setAge(45);
-		System.out.println(p1.getAge());
+		//System.out.println(Personne.nbreTotalDePersonne);
+		
+		System.out.println(Personne.getNbreTotalDePersonne());
+		
+		//System.out.println(p1.getNom());
+		
+		//p1.setAge(45);
+		//System.out.println(p1.getAge());
 	
 		
 	}

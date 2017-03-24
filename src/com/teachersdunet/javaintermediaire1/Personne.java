@@ -4,10 +4,18 @@ public class Personne {
 		private String nom;
 		private int age;
 		
+		private static int nbreTotalDePersonne = 0;
+		public static char[] getNbreTotalDePersonne;
+		
 		//public Personne(String nom, int age)
 		public Personne(String nom){
 			this.nom = nom;
 			//this.age = age;
+			nbreTotalDePersonne++;
+		}
+		
+		public static int getNbreTotalDePersonne(){
+			return nbreTotalDePersonne;
 		}
 		
 		public String getNom() {
