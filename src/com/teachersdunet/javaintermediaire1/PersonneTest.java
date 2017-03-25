@@ -23,6 +23,7 @@ public class PersonneTest {
 		p1.setAge(6);
 		}catch(IllegalArgumentException e){
 			System.out.println(e.getMessage());
+			
 		}
 		//System.out.println(p1.getAge());
 		System.out.println("Je ne vais pas apparaître !");
