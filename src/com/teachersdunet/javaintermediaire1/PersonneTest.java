@@ -19,9 +19,13 @@ public class PersonneTest {
 		System.out.println(Personne.NOMBRE_MAX_OREILLES);
 		//System.out.println(p1.getNom());
 		
-		//p1.setAge(45);
+		try{
+		p1.setAge(6);
+		}catch(IllegalArgumentException e){
+			System.out.println(e.getMessage());
+		}
 		//System.out.println(p1.getAge());
-	
+		System.out.println("Je ne vais pas apparaître !");
 		
 	}
 

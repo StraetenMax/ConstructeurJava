@@ -40,9 +40,6 @@ public class Personne {
 		}
 		
 		
-		
-		
-		
 		/*public String getNom() {
 			return nom;
 		}*/
@@ -69,7 +66,8 @@ public class Personne {
 
 		public void setAge(int age){
 			if(age<15){
-				System.out.println("Interdit au moins de 15 ans");
+				//System.out.println("Interdit au moins de 15 ans");
+				throw new IllegalArgumentException("L'âge doit être supérieur à 15 ans");
 			}else {
 				this.age = age;
 			}
