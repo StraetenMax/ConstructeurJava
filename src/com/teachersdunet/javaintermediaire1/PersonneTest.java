@@ -11,6 +11,7 @@ public class PersonneTest {
 		
 		System.out.println(Personne.getNbreTotalDePersonne());
 		
+		System.out.println(Personne.NOMBRE_MAX_OREILLES);
 		//System.out.println(p1.getNom());
 		
 		//p1.setAge(45);

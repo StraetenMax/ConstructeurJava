@@ -4,6 +4,8 @@ public class Personne {
 		private String nom;
 		private int age;
 		
+		public static final int NOMBRE_MAX_OREILLES = 2;
+		
 		private static int nbreTotalDePersonne = 0;
 		public static char[] getNbreTotalDePersonne;
 		
