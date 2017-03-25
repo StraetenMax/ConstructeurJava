@@ -9,6 +9,11 @@ public class PersonneTest {
 		
 		//System.out.println(Personne.nbreTotalDePersonne);
 		
+		System.out.println(p1.full_title("Je suis"));
+		System.out.println(p2.full_title("Je ne suis pas"));
+		System.out.println(p3.full_title());
+		
+		
 		System.out.println(Personne.getNbreTotalDePersonne());
 		
 		System.out.println(Personne.NOMBRE_MAX_OREILLES);

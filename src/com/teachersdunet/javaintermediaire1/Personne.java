@@ -20,7 +20,20 @@ public class Personne {
 			mPrenom = prenom;
 			//this.age = age;
 			nbreTotalDePersonne++;
+		
 		}
+		
+		public String full_title(String debut){
+			return String.format("%s %s %s", debut, mNom, mPrenom);
+		}
+		
+		public String full_title(){
+			//return mNom +" "+mPrenom;
+			return String.format("%s, %s", mNom, mPrenom);
+		}
+		
+		
+		
 		
 		public static int getNbreTotalDePersonne(){
 			return nbreTotalDePersonne;
