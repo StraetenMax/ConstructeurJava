@@ -2,6 +2,7 @@ package com.teachersdunet.javaintermediaire1;
 
 public class Personne {
 		private String nom;
+		private String prenom;
 		private int age;
 		
 		public static final int NOMBRE_MAX_OREILLES = 2;
@@ -10,8 +11,9 @@ public class Personne {
 		public static char[] getNbreTotalDePersonne;
 		
 		//public Personne(String nom, int age)
-		public Personne(String nom){
+		public Personne(String nom, String prenom){
 			this.nom = nom;
+			this.prenom = prenom;
 			//this.age = age;
 			nbreTotalDePersonne++;
 		}
