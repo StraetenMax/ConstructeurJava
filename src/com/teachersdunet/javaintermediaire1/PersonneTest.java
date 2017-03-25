@@ -3,9 +3,9 @@ package com.teachersdunet.javaintermediaire1;
 public class PersonneTest {
 
 	public static void main(String[] args) {
-		Personne p1 = new Personne("Philippe");
-		Personne p2 = new Personne("Eric");
-		Personne p3 = new Personne("Pierre");
+		Personne p1 = new Personne("Petit","Philippe");
+		Personne p2 = new Personne("Durant","Eric");
+		Personne p3 = new Personne("Dupont", "Pierre");
 		
 		//System.out.println(Personne.nbreTotalDePersonne);
 		

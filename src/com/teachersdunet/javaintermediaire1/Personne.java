@@ -1,8 +1,10 @@
 package com.teachersdunet.javaintermediaire1;
 
 public class Personne {
-		private String nom;
-		private String prenom;
+		//private String nom;
+		//private String prenom;
+		private String mNom;
+		private String mPrenom;
 		private int age;
 		
 		public static final int NOMBRE_MAX_OREILLES = 2;
@@ -12,8 +14,10 @@ public class Personne {
 		
 		//public Personne(String nom, int age)
 		public Personne(String nom, String prenom){
-			this.nom = nom;
-			this.prenom = prenom;
+			//this.nom = nom;
+			//this.prenom = prenom;
+			mNom = nom;
+			mPrenom = prenom;
 			//this.age = age;
 			nbreTotalDePersonne++;
 		}
@@ -22,17 +26,33 @@ public class Personne {
 			return nbreTotalDePersonne;
 		}
 		
-		public String getNom() {
+		
+		
+		
+		
+		/*public String getNom() {
 			return nom;
-		}
+		}*/
 
-
-
-		public void setNom(String nom) {
+		/*public void setNom(String nom) {
 			this.nom = nom;
+		}*/
+
+		public String getmNom() {
+			return mNom;
 		}
 
+		public void setmNom(String mNom) {
+			this.mNom = mNom;
+		}
 
+		public String getmPrenom() {
+			return mPrenom;
+		}
+
+		public void setmPrenom(String mPrenom) {
+			this.mPrenom = mPrenom;
+		}
 
 		public void setAge(int age){
 			if(age<15){
